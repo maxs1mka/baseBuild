@@ -1,5 +1,8 @@
 body {
   font-family: $base-font-family;
+  font-size: 14px;
+  line-height: 1.7;
+  min-width: 320px;
 }
 
 #wrapper {
@@ -9,40 +12,31 @@ body {
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1090px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
-	font-family: $secondary-font-family;
-} 
-
 a {
-	font-family: $secondary-font-family;
 	color: $link-color;
+
+	&:hover {
+		color: $link-hover-color;
+	}
 }
 
-.table-holder {
-	overflow-x: auto;
-	max-width: 100%; 
+h1 {
+	font-size: 36px;
 }
 
-table {
-	border: 2px solid red;
-	empty-cells: hide;
-	margin: 0 auto;
-	table-layout: fixed;
-	min-width: 800px;
-	background-color: blue;
+h2 {
+	font-size: 30px;
 }
 
-td, th {
-	border: 1px solid red;
-	padding: 10px;
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
 }
